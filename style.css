@@ -79,7 +79,7 @@
   
   nav ul li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 5px;
   }
   
   a {
@@ -438,7 +438,7 @@
   }
   
   .single-product .col-2 {
-    padding: 20px;
+    padding: 2S0px;
   }
   
   .single-product h4 {
@@ -487,9 +487,11 @@
   
   #contact * {
     display: block;
+    margin: auto;
   }
   
   #contact label {
+    align-items: center;
     padding: 20px 0;
     background-color: #ffd6d6;
     color: #FFF;
@@ -521,10 +523,4 @@
     font-size: 1.5em;
     padding: 1em;
     border: none;
-  }
-  .navbar-default ul li a:hover {
-    color: #ffd6d6 !important;
-  }
-  body>.navbar-default .navbar-nav>li>a>.fa-car {
-    font-size: 2em;
   }
