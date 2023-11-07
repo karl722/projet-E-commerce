@@ -36,23 +36,6 @@
   
   }
 
-  #panier img {
-    width: 100px;
-    height: 100px;
-    margin: 0 15px;
-  }
-  
-  #panier h4 {
-    display: inline-block;
-    margin: 0;
-    vertical-align: top;
-    text-transform: capitalize;
-  }
-  
-  table {
-    margin-top: 4em;
-  }
-
   .small-container {
     max-width: 1080px;
     margin: auto;
@@ -86,7 +69,25 @@
     text-decoration: none;
     color: #555;
   }
-  
+
+  button {
+    background-color: #ff523b;
+    color: #fff;
+  }
+  /* card-list */
+  .quantity {
+    background-color: red;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: -3px;
+    right: 3%;
+    padding: 8px 3px;
+  }
+
   p {
     color: #555;
   }
@@ -282,68 +283,19 @@
   }
   
   /* footer */
-  .footer {
-    background: #000;
-    color: #8a8a8a;
-    font-size: 14px;
-    padding: 60px 0 20px;
-  }
   .footer p {
-    color: #8a8a8a;
+    color: black;
   }
-  .footer h3 {
-    color: #fff;
-    margin-bottom: 20px;
-  }
-  .footer-col-1,
-  .footer-col-2,
-  .footer-col-3,
-  .footer-col-4 {
-    min-width: 250px;
-    margin-bottom: 20px;
-  }
-  
-  .footer-col-1 {
-    flex-basis: 30px;
-  }
-  
-  .footer-col-2 {
-    flex: 1;
-    text-align: center;
-  }
-  .footer-col-2 img {
-    width: 180px;
-    margin-bottom: 20px;
-  }
-  .footer-col-3,
-  .footer-col-4 {
-    flex-basis: 12%;
-    text-align: center;
-  }
-  ul {
-    list-style-type: none;
-  }
-  .app-logo {
-    margin-top: 20px;
-  }
-  .app-logo img {
-    width: 140px;
-  }
-  
   .footer hr {
     border: none;
-    background: #b5b5b5;
+    background: #ffd6d6;
     height: 1px;
     margin: 20px 0;
   }
   .copyright {
     text-align: center;
   }
-  .menu-icon {
-    width: 28px;
-    margin-left: 20px;
-    display: none;
-  }
+  
   /* Media Quer for menu */
   
   @media only screen and (max-width: 800px) {
@@ -524,3 +476,6 @@
     padding: 1em;
     border: none;
   }
+
+  
+  /* card */
